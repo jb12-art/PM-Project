@@ -1,0 +1,31 @@
+/* All pages */
+/* Add all styles here that is shared with the rest of the pages */
+@import url("./index.css");
+@import url("./exhibition-spaces.css");
+@import url("./gallery.css");
+@import url("./contact.css");
+
+body {
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: aquamarine;
+  height: 100px;
+}
+
+main {
+  background-color: brown;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: cadetblue;
+  height: 100px;
+}
