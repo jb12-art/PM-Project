@@ -16,8 +16,83 @@ body {
 }
 
 header {
-  background-color: aquamarine;
-  height: 100px;
+  position: relative;
+  background-color: lightgrey;
+}
+
+.logo-div {
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+/* mobile screen & navigation */
+@media (max-width: 820px) {
+  nav,
+  #menu-checkbox {
+    display: none;
+  }
+
+  #menu-checkbox:checked ~ nav {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    background: lightgrey;
+    left: 0px;
+    margin: auto;
+  }
+
+  nav a {
+    display: block;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .current {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .mobile-nav-icon {
+    display: none;
+  }
+}
+
+/* Desktop screen & navigation*/
+@media (min-width: 821px) {
+  #menu-checkbox {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav {
+    padding: 7px;
+  }
+
+  nav a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  .current {
+    font-weight: bold;
+    text-decoration: underline;
+  }
 }
 
 main {

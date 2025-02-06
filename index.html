@@ -27,10 +27,31 @@
     <!-- class page-wrapper is in styles.css -->
     <div class="page-wrapper">
       <header>
-        Header
-        <!-- logo -->
+        <div class="logo-div">
+          <img
+            class="logo"
+            src="images/header logo.png"
+            alt="logo of the website"
+          />
+        </div>
         <!-- mobile navigation hamburger menu -->
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars fa-2x"><i class="mobile-nav-icon"></i></i
+        ></label>
         <!-- desktop navigation menu -->
+        <nav>
+          <a href="index.html" aria-label="link to home" class="current"
+            >Home</a
+          >
+          <a
+            href="exhibition-spaces.html"
+            aria-label="link to exhibition-spaces"
+            >Exhibiton spaces</a
+          >
+          <a href="gallery.html" aria-label="link to gallery">Gallery</a>
+          <a href="contact.html" aria-label="link to contact us">Contact us</a>
+        </nav>
       </header>
       <!-- page-main is in styles.css -->
       <main class="page-main">Main</main>
