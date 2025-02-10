@@ -1,1 +1,39 @@
 /* Index/Home - page 1 */
+
+.page-title {
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.page-text-div {
+  margin: auto;
+  margin-top: 0;
+  max-width: 700px;
+  height: auto;
+  background-color: lightgrey;
+  padding-left: 8px;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.mammoth-image-div {
+  margin: auto;
+  height: auto;
+  margin-top: 0;
+  max-width: 650px;
+  display: inline-block;
+}
+
+.mammoth-image {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}

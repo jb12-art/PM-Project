@@ -17,23 +17,30 @@ body {
 
 header {
   margin: auto;
-  position: relative;
   width: 100%;
   height: auto;
-  background-color: lightgrey;
+  /* position: relative; */
+  background: linear-gradient(
+    90deg,
+    rgba(168, 216, 142, 1) 0%,
+    rgba(106, 186, 220, 1) 100%
+  );
 }
 
 .logo-div {
   margin: auto;
   height: auto;
+  max-width: 626px;
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
   margin: auto;
-  height: auto;
   width: 100%;
+  height: auto;
 }
 
 /* mobile screen & navigation */
@@ -103,44 +110,9 @@ header {
   }
 }
 
-main {
+.page-main {
   background-color: lightblue;
   flex-grow: 1;
-}
-
-.page-title {
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.page-text-div {
-  margin: auto;
-  max-width: 700px;
-  height: auto;
-  background-color: lightgrey;
-  padding-left: 8px;
-  display: inline-block;
-}
-
-.mammoth-image-div {
-  margin: auto;
-  height: auto;
-  max-width: 600px;
-  display: inline-block;
-}
-
-.mammoth-image {
-  margin: auto;
-  width: 100%;
-  height: auto;
 }
 
 footer {
