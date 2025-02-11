@@ -5,35 +5,40 @@
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-weight: 500;
 }
 
 section {
+  margin: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.image-div {
+  margin: auto;
+  height: auto;
+  margin-bottom: -4px;
+  max-width: 1240px;
+}
+
+.image {
+  margin: auto;
+  width: 100%;
+  height: auto;
 }
 
 .page-text-div {
   margin: auto;
-  margin-top: 0;
-  max-width: 700px;
   height: auto;
-  background-color: lightgrey;
-  padding-left: 8px;
-  display: inline-block;
+  max-width: 1235px;
+  background-color: rgba(50, 46, 46, 1);
+  padding-left: 5px;
   font-size: 1.1rem;
+  color: white;
+  margin-bottom: 50px;
 }
 
-.mammoth-image-div {
-  margin: auto;
-  height: auto;
-  margin-top: 0;
-  max-width: 650px;
-  display: inline-block;
-}
-
-.mammoth-image {
-  margin: auto;
-  width: 100%;
-  height: auto;
+.for-kids,
+.for-teachers {
+  margin: 2px 0px;
 }
