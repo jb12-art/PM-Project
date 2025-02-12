@@ -43,7 +43,7 @@ header {
   height: auto;
 }
 
-/* for page: index.html and exhibition-spaces.html */
+/* for page: index.html, exhibition-spaces.html, about-us.html */
 .page-title {
   margin: auto;
   text-align: center;
@@ -53,38 +53,46 @@ header {
   color: rgb(0, 0, 0);
 }
 
-/* for page: index.html and exhibition-spaces.html */
+/* for page: index.html, exhibition-spaces.html, about-us.html */
 section {
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-/* for page: index.html and exhibition-spaces.html */
+/* for page: index.html, exhibition-spaces.html, about-us.html */
 .image-div {
   margin: auto;
   height: auto;
   margin-bottom: -5px;
-  max-width: 1240px;
+  max-width: 1255px;
 }
 
-/* for page: index.html and exhibition-spaces.html */
+/* for page: index.html, exhibition-spaces.html, about-us.html */
 .image {
   margin: auto;
   width: 100%;
   height: auto;
 }
 
-/* for page: index.html and exhibition-spaces.html */
+/* for page: index.html, exhibition-spaces.html, about-us.html */
 .page-text-div {
   margin: auto;
   height: auto;
   max-width: 1235px;
   background-color: rgba(50, 46, 46, 1);
-  padding-left: 5px;
+  padding-left: 20px;
   font-size: 1.1rem;
   color: white;
   margin-bottom: 50px;
+}
+
+/* making space (& line divider) with <p> in about-us.html */
+.space {
+  margin-bottom: 50px;
+  height: 1px;
+  background: white;
+  margin-right: 20px;
 }
 
 /* mobile screen & navigation */
@@ -158,13 +166,10 @@ section {
 .page-main {
   flex-grow: 1;
   background: linear-gradient(
-    90deg,
+    270deg,
     rgba(168, 216, 142, 1) 0%,
     rgba(106, 186, 220, 1) 100%
   );
-  /* background-color: skyblue; */
-  /* background-image: url("../images/stars.jpg"); */
-  /* background-size: cover; */
 }
 
 footer {
