@@ -43,6 +43,50 @@ header {
   height: auto;
 }
 
+/* for page: index.html and exhibition-spaces.html */
+.page-title {
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+/* for page: index.html and exhibition-spaces.html */
+section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* for page: index.html and exhibition-spaces.html */
+.image-div {
+  margin: auto;
+  height: auto;
+  margin-bottom: -5px;
+  max-width: 1240px;
+}
+
+/* for page: index.html and exhibition-spaces.html */
+.image {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* for page: index.html and exhibition-spaces.html */
+.page-text-div {
+  margin: auto;
+  height: auto;
+  max-width: 1235px;
+  background-color: rgba(50, 46, 46, 1);
+  padding-left: 5px;
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 50px;
+}
+
 /* mobile screen & navigation */
 @media (max-width: 820px) {
   nav,
@@ -112,8 +156,15 @@ header {
 }
 
 .page-main {
-  background-color: skyblue;
   flex-grow: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(168, 216, 142, 1) 0%,
+    rgba(106, 186, 220, 1) 100%
+  );
+  /* background-color: skyblue; */
+  /* background-image: url("../images/stars.jpg"); */
+  /* background-size: cover; */
 }
 
 footer {
