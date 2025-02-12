@@ -100,14 +100,14 @@ section {
 
   nav {
     position: absolute;
-    background: lightgrey;
+    background: rgba(50, 46, 46, 1);
     left: 0px;
     margin: auto;
   }
 
   nav a {
     display: block;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     font-size: 1rem;
     text-decoration: none;
@@ -135,11 +135,11 @@ section {
 
   nav {
     padding: 7px;
-    background: lightgrey;
+    background: rgba(50, 46, 46, 1);
   }
 
   nav a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding-left: 15px;
     font-size: 1rem;
     text-decoration: none;
