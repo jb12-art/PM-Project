@@ -44,7 +44,7 @@ header {
   height: auto;
 }
 
-/* for page: index.html, exhibition-spaces.html, about-us.html */
+/* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
 .page-title {
   margin: auto;
   text-align: center;
@@ -54,14 +54,14 @@ header {
   color: rgb(0, 0, 0);
 }
 
-/* for page: index.html, exhibition-spaces.html, about-us.html */
+/* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
 section {
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-/* for page: index.html, exhibition-spaces.html, about-us.html */
+/* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
 .image-div {
   margin: auto;
   height: auto;
@@ -69,14 +69,14 @@ section {
   max-width: 1255px;
 }
 
-/* for page: index.html, exhibition-spaces.html, about-us.html */
+/* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
 .image {
   margin: auto;
   width: 100%;
   height: auto;
 }
 
-/* for page: index.html, exhibition-spaces.html, about-us.html */
+/* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
 .page-text-div {
   margin: auto;
   height: auto;
@@ -86,6 +86,15 @@ section {
   font-size: 1.1rem;
   color: white;
   margin-bottom: 50px;
+}
+
+.h3-text-div {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.sub-title {
+  text-decoration: underline;
 }
 
 /* making space (& line divider) with <p> in about-us.html */
