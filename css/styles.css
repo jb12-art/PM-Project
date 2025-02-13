@@ -202,8 +202,9 @@ section {
 
 /* form */
 form {
-  margin-left: 2px;
-  margin-right: 10px;
+  margin: 0 auto;
+  /* margin-left: 2px; not good on mobile device*/
+  /* margin-right: 10px; not good on mobile device*/
 }
 
 /* form */
