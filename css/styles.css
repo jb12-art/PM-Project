@@ -202,7 +202,9 @@ section {
 
 /* form */
 form {
-  margin: 0 auto;
+  margin: auto;
+  padding-left: 1px;
+  padding-right: 9px;
   /* margin-left: 2px; not good on mobile device*/
   /* margin-right: 10px; not good on mobile device*/
 }
