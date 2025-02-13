@@ -20,6 +20,7 @@ header {
   margin: auto;
   width: 100%;
   height: auto;
+  /* background: linear-gradient code, I got from website: https://cssgradient.io/ */
   background: linear-gradient(
     90deg,
     rgba(168, 216, 142, 1) 0%,
@@ -165,11 +166,73 @@ section {
 
 .page-main {
   flex-grow: 1;
+  /* background: linear-gradient code, I got from website: https://cssgradient.io/ */
   background: linear-gradient(
     270deg,
     rgba(168, 216, 142, 1) 0%,
     rgba(106, 186, 220, 1) 100%
   );
+}
+
+/* contact.html */
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+/* contact.html */
+.divider-line {
+  margin: auto;
+  height: 1px;
+  max-width: 1255px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+/* form */
+.form-div {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/* form */
+form {
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+/* form */
+.form-name,
+.form-email {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* form */
+.form-message {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.submit-button {
+  margin: 0 auto;
+  max-width: 200px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.submit-text {
+  text-align: start;
 }
 
 footer {
