@@ -50,8 +50,17 @@ header {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 3rem;
+  font-style: oblique;
   color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.icons {
+  margin: auto;
+  display: block;
+  margin-bottom: 40px;
 }
 
 /* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
@@ -74,6 +83,7 @@ section {
   margin: auto;
   width: 100%;
   height: auto;
+  border-radius: 50px 50px 0px 0px;
 }
 
 /* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
@@ -95,6 +105,10 @@ section {
 
 .sub-title {
   text-decoration: underline;
+}
+
+.contact-text-link {
+  color: white;
 }
 
 /* making space (& line divider) with <p> in about-us.html */
