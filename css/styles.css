@@ -61,6 +61,8 @@ header {
   margin: auto;
   max-width: 785px;
   margin-bottom: 40px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .icons {
@@ -157,6 +159,14 @@ section {
 
   .mobile-nav-icon {
     display: none;
+  }
+
+  /* for page: index.html, exhibition-spaces.html, get-involved.html, about-us.html, contact.html */
+  .image {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
   }
 }
 
