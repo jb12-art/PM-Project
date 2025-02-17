@@ -111,7 +111,8 @@ section {
 }
 
 .sub-title {
-  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .contact-text-link {
