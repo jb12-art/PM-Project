@@ -16,6 +16,22 @@ body {
   min-height: 100vh;
 }
 
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  color: black;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
 header {
   margin: auto;
   width: 100%;
