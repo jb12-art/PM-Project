@@ -51,7 +51,7 @@ header {
 
 .logo {
   margin: auto;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -78,7 +78,7 @@ header {
 
 .icons {
   margin: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 /* for all pages */
