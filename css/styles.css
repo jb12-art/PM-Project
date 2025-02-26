@@ -51,7 +51,7 @@ header {
 
 .logo {
   margin: auto;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -71,6 +71,7 @@ header {
 .icons-div {
   margin: auto;
   max-width: 785px;
+  height: auto;
   margin-bottom: 40px;
   padding-left: 3px;
   padding-right: 3px;
@@ -78,7 +79,8 @@ header {
 
 .icons {
   margin: auto;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 /* for all pages */
@@ -172,7 +174,7 @@ section {
 
   .image {
     margin: auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 20px 20px 0px 0px;
   }
