@@ -3,6 +3,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  /* background: linear-gradient code, I got from website: https://cssgradient.io/ */
+  background: linear-gradient(
+    270deg,
+    rgba(168, 216, 142, 1) 0%,
+    rgba(106, 186, 220, 1) 100%
+  );
 }
 
 .page-wrapper {
@@ -212,12 +218,6 @@ section {
 
 .page-main {
   flex-grow: 1;
-  /* background: linear-gradient code, I got from website: https://cssgradient.io/ */
-  background: linear-gradient(
-    270deg,
-    rgba(168, 216, 142, 1) 0%,
-    rgba(106, 186, 220, 1) 100%
-  );
 }
 
 /* contact.html */
@@ -284,6 +284,7 @@ form {
 
 footer {
   margin: auto;
+  margin-top: 55px;
   position: relative;
   width: 100%;
   height: auto;
